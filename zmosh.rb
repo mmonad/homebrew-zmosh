@@ -7,10 +7,10 @@ class Zmosh < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/mmonad/zmosh/releases/download/v0.4.0/zmosh-0.4.0-macos-aarch64.tar.gz"
-      sha256 "REPLACE_WITH_MACOS_ARM64_SHA256"
+      sha256 "57ac09505b6b0dfa6eced6056f28e7b118f557fe9afa6ea1bd03c7a8808d237a"
     else
       url "https://github.com/mmonad/zmosh/releases/download/v0.4.0/zmosh-0.4.0-macos-x86_64.tar.gz"
-      sha256 "REPLACE_WITH_MACOS_INTEL_SHA256"
+      sha256 "f7f0cefad06ba919f1f7fe15eb9b73687b9acd02c2c8602095c2d1ac1180f221"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
